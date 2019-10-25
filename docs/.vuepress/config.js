@@ -10,30 +10,39 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Vue', link: '/vue/' },
       { text: 'webpack', link: '/webpack/' }, // target:'_blank' },
-      { text: 'react', link: '/react' },
-      { text: 'rollup', link: '/rollup' },
+      { text: 'react', link: '/react/' },
+      { text: 'rollup', link: '/rollup/' },
+      { text: 'babel', link: '/babel/' },
       {
-        text: 'Languages',
+        text: '维护的框架',
         ariaLabel: 'Language Menu',
         items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
+          { text: 'vue', link: '/framwork/vue/' }
         ]
       }
     ],
     sidebar: {
+      '/vue/':[
+        ''
+      ],
+      '/react/':[
+        '',
+        'router'
+      ],
+      '/babel/':[
+        ''
+      ],
+      '/rollup/':[
+        ''
+      ],
       '/webpack/': [
         '', 
         'js-module'
       ],
-      '/vue/': [
+      '/framwork\/vue/': [
         '',
         'ttk-vue'
       ]
-      //   {
-      //     title: 'Group 2',
-      //     children: [ /* ... */ ]
-      //   }
     }
   }
 }
