@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: https://vuepress.vuejs.org/hero.png
-heroText: 前端日记
-tagline: 前端学习备忘录
+heroImage: http://test.aierp.cn:8089/vendor/img/standard/favicon.ico
+heroText: Foresee
+tagline: 方欣前端文档中心
 actionText: 快速上手 →
-actionLink: /vue/
+actionLink: /framwork/vue/
 features:
 - title: React
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
